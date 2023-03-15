@@ -170,7 +170,7 @@ const Contact = () => {
       </section>
       <ToastContainer
         toastStyle={{
-          backgroundColor: "#343434",
+          backgroundColor: "#686b83",
           color: "#fff",
           fontSize: "18px",
         }}

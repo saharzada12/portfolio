@@ -56,6 +56,13 @@ const MoveTo = styled.a`
     color: #ac9ee6;
   }
 `;
+const ConnectBtn = styled.a`
+  text-decoration: none;
+  color: #e9e1e1;
+  &:hover {
+    color: #e9e1e1;
+  }
+`;
 
 const Scroll = styled.a`
   text-decoration: none;
@@ -133,7 +140,7 @@ const HomePage = () => {
                 knowledge as I can.
               </SubHeader>
               <ContactMe onClick={() => console.log("connect")}>
-                Let's Connect
+                <ConnectBtn href="#contact">Let's Connect</ConnectBtn>
               </ContactMe>
               <ButtonDiv>
                 <MoveTo
