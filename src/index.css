@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.parent{
+  background-color: #454042;
+}
+body{
+  height: 100vh;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  color: #e9e1e1
+}
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+@import 'react-toastify/dist/ReactToastify.css';
+@import 'animate.css';
+@import "animate.css/animate.min.css";
+.links {
+  margin-right: 20px;
+  transition: 0.5s ease-in-out;
+} 
+.links:hover{
+  font-size: 18px;
+  color: white;
+}
+html{
+  scroll-behavior: smooth;
+}
+#skills{
+  padding: 0 auto;
+}
+@keyframes move {
+  0% {
+    transform: translatey(0);
+  }
+  50% {
+    transform: translatey(50px);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+#contact{
+  padding-top: 100px;
+  height: 100vh;
+  background-color: #686b83;
+}
