@@ -158,19 +158,10 @@ const Contact = () => {
             </Col>
           </Row>
         </Container>
-        <SvgDiv>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path
-              fill="#454042"
-              fill-opacity="1"
-              d="M0,192L60,176C120,160,240,128,360,138.7C480,149,600,203,720,197.3C840,192,960,128,1080,112C1200,96,1320,128,1380,144L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-            ></path>
-          </svg>
-        </SvgDiv>
       </section>
       <ToastContainer
         toastStyle={{
-          backgroundColor: "#686b83",
+          backgroundColor: "#343434",
           color: "#fff",
           fontSize: "18px",
         }}

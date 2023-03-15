@@ -135,7 +135,8 @@ const HomePage = () => {
                 <HeaderSpan>Welcome to my Portfolio</HeaderSpan>
               </AnimationOnScroll>
               <HeaderHome>
-                {`Hi I'm sahar zada`} <span className="wrap">{text}</span>
+                {`Hi ,I'm sahar zada`} <br></br>
+                <span className="wrap">{text}</span>
               </HeaderHome>
               <SubHeader>
                 I'm a Junior Full-stack developer with one year of experience,
