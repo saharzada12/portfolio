@@ -69,9 +69,14 @@ const Scroll = styled.a`
   color: rgba(220, 186, 221, 0.4);
   position: absolute;
   transform: rotate(90deg);
+  transition: 0.5s ease-in-out;
   font-size: 26px;
-  left: 50px;
+  left: 90px;
   top: 350px;
+  &:hover {
+    color: rgba(220, 186, 221, 0.4);
+    font-size: 30px;
+  }
   ${mobile({
     display: "none",
   })}
@@ -125,7 +130,7 @@ const HomePage = () => {
         <Container>
           <Row className="align-items-center">
             <Col xs={12} md={6} xl={7}>
-              <Scroll href="#contact">Scroll down</Scroll>
+              <Scroll href="#contact">Scroll Down</Scroll>
               <AnimationOnScroll animateIn="animate__bounce">
                 <HeaderSpan>Welcome to my Portfolio</HeaderSpan>
               </AnimationOnScroll>
